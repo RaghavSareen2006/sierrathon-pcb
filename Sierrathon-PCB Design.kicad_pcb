@@ -1763,7 +1763,7 @@
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U1-USB_DP)")
+			(net "/USBR_P")
 			(pintype "passive")
 			(uuid "2cab313c-6632-44bd-baf5-864027bddc4e")
 		)
@@ -3579,7 +3579,7 @@
 			(size 0.875 0.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/LED5")
+			(net "/Led5")
 			(pinfunction "GPIO21_32")
 			(pintype "bidirectional")
 			(uuid "3085e946-7dd6-4cf9-9552-8e1a898bf8af")
@@ -3719,7 +3719,7 @@
 			(size 0.2 0.875)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U1-USB_DM)")
+			(net "/USBR_N")
 			(pinfunction "USB_DM_46")
 			(pintype "bidirectional")
 			(uuid "8aa220ef-ce49-4cad-9c15-a475e83d0990")
@@ -3729,7 +3729,7 @@
 			(size 0.2 0.875)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U1-USB_DP)")
+			(net "/USBR_P")
 			(pinfunction "USB_DP_47")
 			(pintype "bidirectional")
 			(uuid "05879b4b-a9af-4ac1-86ae-618388b20be2")
@@ -4645,7 +4645,7 @@
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U1-USB_DM)")
+			(net "/USBR_N")
 			(pintype "passive")
 			(uuid "71e3bfea-5367-40b4-aafc-5c1c2531841f")
 		)
@@ -9839,7 +9839,7 @@
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/LED5")
+			(net "/Led5")
 			(pintype "passive")
 			(uuid "79211dcd-c526-413f-afe5-c5fe85a88328")
 		)
@@ -15116,7 +15116,7 @@
 		(width 0.127)
 		(locked yes)
 		(layer "F.Cu")
-		(net "Net-(U1-USB_DP)")
+		(net "/USBR_P")
 		(uuid "0057bf58-5b30-443d-a9ca-3418a95a06df")
 	)
 	(segment
@@ -15125,7 +15125,7 @@
 		(width 0.127)
 		(locked yes)
 		(layer "F.Cu")
-		(net "Net-(U1-USB_DP)")
+		(net "/USBR_P")
 		(uuid "0f770bdf-6eb1-4702-8aa3-6a4c0a8131f8")
 	)
 	(segment
@@ -15134,7 +15134,7 @@
 		(width 0.127)
 		(locked yes)
 		(layer "F.Cu")
-		(net "Net-(U1-USB_DP)")
+		(net "/USBR_P")
 		(uuid "b521a996-5b20-4cd0-8e41-4bd22c70f3a3")
 	)
 	(segment
@@ -15143,7 +15143,7 @@
 		(width 0.127)
 		(locked yes)
 		(layer "F.Cu")
-		(net "Net-(U1-USB_DP)")
+		(net "/USBR_P")
 		(uuid "ed1af650-151c-4821-8595-2cc1e4ba11d3")
 	)
 	(segment
@@ -15152,7 +15152,7 @@
 		(width 0.127)
 		(locked yes)
 		(layer "F.Cu")
-		(net "Net-(U1-USB_DP)")
+		(net "/USBR_P")
 		(uuid "f4ebdf5a-592b-46ce-a4fa-bac33158b69c")
 	)
 	(segment
@@ -16368,7 +16368,7 @@
 		(end 143.5694 80.8073)
 		(width 0.2032)
 		(layer "F.Cu")
-		(net "/LED5")
+		(net "/Led5")
 		(uuid "00fce4eb-fe33-4bd1-9298-241599093a6f")
 	)
 	(segment
@@ -16376,7 +16376,7 @@
 		(end 129.7396 77.2528)
 		(width 0.2032)
 		(layer "F.Cu")
-		(net "/LED5")
+		(net "/Led5")
 		(uuid "01d29e58-da78-4f88-910d-2499111582ad")
 	)
 	(segment
@@ -16384,7 +16384,7 @@
 		(end 127.4 79.5924)
 		(width 0.2032)
 		(layer "F.Cu")
-		(net "/LED5")
+		(net "/Led5")
 		(uuid "1d2e77e4-f7ec-4a90-bcf0-346cab67fdad")
 	)
 	(segment
@@ -16392,7 +16392,7 @@
 		(end 127.4 80.0625)
 		(width 0.2032)
 		(layer "F.Cu")
-		(net "/LED5")
+		(net "/Led5")
 		(uuid "a87e84d5-c266-460a-8360-04fde90d83c6")
 	)
 	(segment
@@ -16400,7 +16400,7 @@
 		(end 140.0149 77.2528)
 		(width 0.2032)
 		(layer "F.Cu")
-		(net "/LED5")
+		(net "/Led5")
 		(uuid "c949db95-927e-4226-9129-48d1e1594c44")
 	)
 	(segment
@@ -16408,7 +16408,7 @@
 		(end 144.7673 80.8073)
 		(width 0.2032)
 		(layer "F.Cu")
-		(net "/LED5")
+		(net "/Led5")
 		(uuid "fec64b60-aea8-4344-843f-229785ca0c75")
 	)
 	(segment
@@ -16649,7 +16649,7 @@
 		(width 0.127)
 		(locked yes)
 		(layer "F.Cu")
-		(net "Net-(U1-USB_DM)")
+		(net "/USBR_N")
 		(uuid "30d762cd-87d3-4aa7-a68a-6cfe67cdbbb5")
 	)
 	(segment
@@ -16658,7 +16658,7 @@
 		(width 0.127)
 		(locked yes)
 		(layer "F.Cu")
-		(net "Net-(U1-USB_DM)")
+		(net "/USBR_N")
 		(uuid "514e2bcc-e4da-4d9f-b398-8e68edfef329")
 	)
 	(segment
@@ -16667,7 +16667,7 @@
 		(width 0.127)
 		(locked yes)
 		(layer "F.Cu")
-		(net "Net-(U1-USB_DM)")
+		(net "/USBR_N")
 		(uuid "9f649c00-6bdc-47ce-b10a-331a40bce43d")
 	)
 	(segment
@@ -16676,7 +16676,7 @@
 		(width 0.127)
 		(locked yes)
 		(layer "F.Cu")
-		(net "Net-(U1-USB_DM)")
+		(net "/USBR_N")
 		(uuid "a1d355bb-9768-46b7-9cc5-899f3cce3dad")
 	)
 	(segment
@@ -16685,7 +16685,7 @@
 		(width 0.127)
 		(locked yes)
 		(layer "F.Cu")
-		(net "Net-(U1-USB_DM)")
+		(net "/USBR_N")
 		(uuid "b2a8bea4-b26e-48fb-9d45-d4dfe5d24267")
 	)
 	(via
@@ -16694,7 +16694,7 @@
 		(drill 0.2032)
 		(layers "F.Cu" "B.Cu")
 		(locked yes)
-		(net "Net-(U1-USB_DM)")
+		(net "/USBR_N")
 		(uuid "a477f723-a833-4764-8dc1-added20ae1b2")
 	)
 	(via
@@ -16703,7 +16703,7 @@
 		(drill 0.2032)
 		(layers "F.Cu" "B.Cu")
 		(locked yes)
-		(net "Net-(U1-USB_DM)")
+		(net "/USBR_N")
 		(uuid "b61217e9-057c-4997-9cc5-42ba9ee86d40")
 	)
 	(segment
@@ -16712,7 +16712,7 @@
 		(width 0.127)
 		(locked yes)
 		(layer "B.Cu")
-		(net "Net-(U1-USB_DM)")
+		(net "/USBR_N")
 		(uuid "835699c2-2ffb-4891-a6a3-eab5e8996a77")
 	)
 	(segment
@@ -16721,7 +16721,7 @@
 		(width 0.127)
 		(locked yes)
 		(layer "B.Cu")
-		(net "Net-(U1-USB_DM)")
+		(net "/USBR_N")
 		(uuid "da090da0-fa98-4e7a-bf20-6f36adf6d8ff")
 	)
 	(segment
