@@ -48,4 +48,9 @@
   (fp_text user "PCB EDGE" (at 5.5 1.9) (layer F.Fab)
     (effects (font (size 0.64 0.64) (thickness 0.15)))
   )
+  (model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4085.step"
+    (offset (xyz -2.975 4.025 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

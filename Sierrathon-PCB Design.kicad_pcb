@@ -8531,6 +8531,17 @@
 			(uuid "a099e6c7-8034-47a8-bc84-ae1b76a33536")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4085.step"
+			(offset
+				(xyz -2.975 4.025 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Sierrathon:SON4_PTS526 SM15 SMTR2 LFS_CNK"
 		(layer "F.Cu")
@@ -13225,17 +13236,6 @@
 		(at 104 75.5 0)
 		(layer "F.SilkS")
 		(uuid "9900ab9e-1e0e-4dd9-bdbc-65adff265a28")
-		(effects
-			(font
-				(size 1.2 1.2)
-				(thickness 0.18)
-			)
-		)
-	)
-	(gr_text "PROBE"
-		(at 166.4 83.5 90)
-		(layer "F.SilkS")
-		(uuid "a3b63903-53d4-440e-ac30-f1b68f1636a0")
 		(effects
 			(font
 				(size 1.2 1.2)
