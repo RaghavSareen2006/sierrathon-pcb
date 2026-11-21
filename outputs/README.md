@@ -16,7 +16,7 @@ Generated with KiCad 10.0.7 from the files in this repo.
 | `documentation/*-pcb-layers.pdf` | One page per copper/silk/fab layer |
 | `documentation/*-3D-top.png, *-3D-bottom.png` | 3D renders |
 | `reports/DRC.rpt` | DRC, all severities, with schematic parity: 0 violations, 0 unconnected, 0 parity issues |
-| `reports/ERC.rpt` | ERC of the schematic (25 items, mostly pin-type warnings from downloaded symbols) |
+| `reports/ERC.rpt` | ERC of the schematic (20 items, mostly pin-type warnings from downloaded symbols) |
 
 Board: 4 layers, FR-370HR, 62 mil, 1 oz copper, green mask, white silkscreen, IPC Class 2,
 through-hole vias only, 90-ohm USB pairs (5 mil / 4 mil) on L1 referenced to the L2 GND plane.

@@ -5321,10 +5321,6 @@
 		(uuid "2ae931b1-348c-411b-b50e-068bb997bd7b")
 	)
 	(no_connect
-		(at 161.29 133.35)
-		(uuid "41d54c6d-237f-46bf-a00f-693cf4d521dd")
-	)
-	(no_connect
 		(at 120.65 175.26)
 		(uuid "438f1350-a9cd-4c5e-83e7-c000f71e4ac1")
 	)
@@ -5343,10 +5339,6 @@
 	(no_connect
 		(at 161.29 186.69)
 		(uuid "86618dd7-9035-4b86-a185-2ba185cc0281")
-	)
-	(no_connect
-		(at 161.29 135.89)
-		(uuid "87e50426-c7c8-43d2-9fb4-b29b79cac084")
 	)
 	(no_connect
 		(at 48.26 64.77)
@@ -5385,10 +5377,6 @@
 		(uuid "c971021d-6e61-4072-9548-000790cfedda")
 	)
 	(no_connect
-		(at 161.29 179.07)
-		(uuid "cdbeab0c-48be-4ef8-9014-b0a13e9595b9")
-	)
-	(no_connect
 		(at 161.29 110.49)
 		(uuid "d58dbf2c-973e-4e69-bd56-db9159a6e53b")
 	)
@@ -5397,21 +5385,10 @@
 		(uuid "da8dc9fa-defa-48a7-a414-14566f16fb2d")
 	)
 	(no_connect
-		(at 161.29 184.15)
-		(uuid "dff042a9-6cb2-4969-b689-33321fe1d160")
-	)
-	(no_connect
 		(at 161.29 123.19)
 		(uuid "eb27a3b9-b667-468f-b69c-0ce87050c409")
 	)
-	(no_connect
-		(at 161.29 138.43)
-		(uuid "f7543e14-7373-4fc9-abe9-2462904f2184")
-	)
-	(no_connect
-		(at 161.29 140.97)
-		(uuid "fc9cd517-9c92-4a52-939e-24cdcd4a3298")
-	)
+	
 	(wire
 		(pts
 			(xy 287.02 245.11) (xy 306.07 245.11)
@@ -15670,6 +15647,1256 @@
 		(property "Description" "Special symbol for telling ERC where power comes from" (at 125.73 102.87 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(pin "1" (uuid "104e556f-d2ee-4eb6-bf87-65bedc444f4b"))
 		(instances (project "Sierrathon-PCB Design" (path "/51a22687-1e47-442c-a34e-eb81866e4c6a" (reference "#FLG03") (unit 1))))
+	)
+	(symbol
+		(lib_id "UJ20-C-H-G-SMT-TR:UJ20-C-H-G-SMT-TR")
+		(at 320.04 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "22e8f7b5-09d4-4383-b382-2021b15dce49")
+		(property "Reference" "J2"
+			(at 320.04 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB-C"
+			(at 320.04 123.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Sierrathon:CUI_UJ20-C-H-G-SMT-TR"
+			(at 320.04 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/UJ20-C-H-G-SMT-TR_Same_Sky.pdf"
+			(at 320.04 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "Type C, USB 2.0, 480 Mbps, 20 Vdc, 5 A, Right Angle, Gold Flash, Surface Mount, Black Insulator, USB Receptacle"
+			(at 320.04 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/UJ20-C-H-G-SMT-TR_Same_Sky.pdf"
+			(at 320.04 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Same Sky"
+			(at 320.04 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.66mm"
+			(at 320.04 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "UJ20-C-H-G-SMT-TR"
+			(at 320.04 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "1.01"
+			(at 320.04 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/UJ20-C-H-G-SMT-TR/Same+Sky/view-part/"
+			(at 320.04 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 320.04 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "A6"
+			(uuid "a632867f-1ef0-4b62-9329-d0384ffda951")
+		)
+		(pin "A1"
+			(uuid "c461f408-6cd0-481a-9aaf-beea09b033b1")
+		)
+		(pin "A8"
+			(uuid "8df1f9af-8b9a-4209-907c-dfe7a69f4af6")
+		)
+		(pin "B5"
+			(uuid "62a0c9e3-57ff-456a-8a1d-1b57f8a695ee")
+		)
+		(pin "A5"
+			(uuid "57d043f7-80cc-47e1-a0a2-00ad23e9e2fd")
+		)
+		(pin "B4"
+			(uuid "c854c16a-0fe1-4041-a9c9-98e9607870b0")
+		)
+		(pin "A7"
+			(uuid "2668b37d-43cd-42fe-b152-87c1c179292d")
+		)
+		(pin "A12"
+			(uuid "6ca194aa-edad-4e57-9a8c-763435aa9c50")
+		)
+		(pin "B1"
+			(uuid "3462ff76-6a5d-4ee7-b6de-7a676c6a71ce")
+		)
+		(pin "A4"
+			(uuid "a3b80fda-909b-4d1e-9893-1f1d29c107a9")
+		)
+		(pin "A9"
+			(uuid "d6a0c046-c1f1-4103-b012-2e9c6d1285cb")
+		)
+		(pin "B6"
+			(uuid "e89e6993-46dd-4a92-9bfd-2abe4a48df3f")
+		)
+		(pin "SH3"
+			(uuid "6467ed7d-6fce-4956-9aa7-723777a4d2bb")
+		)
+		(pin "B12"
+			(uuid "1420be56-bce7-417d-97d9-f1480dc664b6")
+		)
+		(pin "SH4"
+			(uuid "f978110a-a98f-4fbc-951b-596c2ddd2b2b")
+		)
+		(pin "B9"
+			(uuid "383c74e4-730c-40de-a41a-4c5a795d0cd4")
+		)
+		(pin "B7"
+			(uuid "b797169d-a15e-429e-a5cc-56672606524e")
+		)
+		(pin "SH1"
+			(uuid "0362b097-004c-4e81-91a8-f96bbb33a995")
+		)
+		(pin "SH2"
+			(uuid "cb0bd04e-961f-4a07-9eea-52a9983433b0")
+		)
+		(pin "B8"
+			(uuid "40a8e60e-4f38-4465-be3c-4146ad536801")
+		)
+		(instances
+			(project "Sierrathon-PCB Design"
+				(path "/51a22687-1e47-442c-a34e-eb81866e4c6a"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "P_DP"
+		(at 332.74 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61c7b9f2-e0dd-4348-862d-dedff8974ba7")
+	)
+	(label "P_DP"
+		(at 332.74 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b190047-97eb-408b-a1b7-fd6dee9964ea")
+	)
+	(label "P_DN"
+		(at 332.74 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5fc13aa0-2af6-4c3f-a7b5-62c2d0e22471")
+	)
+	(label "P_DN"
+		(at 332.74 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87069c75-682d-46cd-aaba-3153e47b12ea")
+	)
+	(label "P_SBU1"
+		(at 332.74 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6326168-1317-483b-90f5-8d9aedcad367")
+	)
+	(label "P_SBU2"
+		(at 332.74 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9d84dfe-cf33-4dd9-8777-f1b556a48aa4")
+	)
+	(label "P_CC1"
+		(at 332.74 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44bfb9d7-9a87-4acc-866a-1fecb441a0b4")
+	)
+	(label "P_CC2"
+		(at 332.74 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4da24e16-aef8-47ae-a9e8-66372e1e3532")
+	)
+	(no_connect
+		(at 332.74 54.61)
+		(uuid "86bc0397-e3c7-411d-aa95-a4438418482a")
+	)
+	(no_connect
+		(at 332.74 57.15)
+		(uuid "ad87b202-f44a-4c26-af11-a133227914b0")
+	)
+	(no_connect
+		(at 332.74 59.69)
+		(uuid "fe93de62-e89a-4d22-bc0f-138745d16f99")
+	)
+	(no_connect
+		(at 332.74 62.23)
+		(uuid "2e062ceb-4fab-4b16-960c-52f7ca415bda")
+	)
+	(wire
+		(pts
+			(xy 332.74 97.79) (xy 336.55 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddbb2c62-83fb-4934-84e9-54f632f81f92")
+	)
+	(wire
+		(pts
+			(xy 332.74 100.33) (xy 336.55 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ecc7d8f-96be-4436-aac9-80f2d7fc4a3e")
+	)
+	(wire
+		(pts
+			(xy 332.74 102.87) (xy 336.55 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c0f7a9a-b389-4539-8c00-387912cfcda5")
+	)
+	(wire
+		(pts
+			(xy 332.74 105.41) (xy 336.55 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04f46e67-c9ca-491f-8128-71ab12c131c3")
+	)
+	(wire
+		(pts
+			(xy 332.74 110.49) (xy 336.55 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e2dd027-0535-42ec-a2a2-962d7ca198b8")
+	)
+	(wire
+		(pts
+			(xy 332.74 113.03) (xy 336.55 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dab55355-10d3-4b89-b4ec-c169fd3ff996")
+	)
+	(wire
+		(pts
+			(xy 332.74 115.57) (xy 336.55 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03c61b27-c0aa-4e12-b379-08a7b791a4ee")
+	)
+	(wire
+		(pts
+			(xy 332.74 118.11) (xy 336.55 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a168d10-fd6a-4fd8-99e9-16e8d8662bb8")
+	)
+	(wire
+		(pts
+			(xy 336.55 97.79) (xy 336.55 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "253bbca5-c3ac-47d5-aa52-5f7ab8a3cfa4")
+	)
+	(wire
+		(pts
+			(xy 336.55 100.33) (xy 336.55 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85fa4f69-0cf7-437e-8697-274f3cfeb15b")
+	)
+	(wire
+		(pts
+			(xy 336.55 102.87) (xy 336.55 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78df9703-6ee3-45b3-87c1-46217e8b0561")
+	)
+	(wire
+		(pts
+			(xy 336.55 105.41) (xy 336.55 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "930fef6f-e02e-4b1c-b27e-39acea2cce53")
+	)
+	(wire
+		(pts
+			(xy 336.55 110.49) (xy 336.55 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c224e64-ea24-4f69-84f4-2fa435ac167d")
+	)
+	(wire
+		(pts
+			(xy 336.55 113.03) (xy 336.55 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "290143ed-d14a-4f4f-bfae-f0b644a9e134")
+	)
+	(wire
+		(pts
+			(xy 336.55 115.57) (xy 336.55 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85329ddc-3dc7-4d1b-9887-bceb434837da")
+	)
+	(wire
+		(pts
+			(xy 336.55 118.11) (xy 336.55 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8309b44a-4556-454e-a14a-d774a370fc98")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 336.55 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3782fb01-5c55-4be5-b7a6-364c87234137")
+		(property "Reference" "#PWR036"
+			(at 336.55 127.0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 336.55 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 336.55 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f618bb77-5321-4517-80a0-ee3b748ce0bd")
+		)
+		(instances
+			(project "Sierrathon-PCB Design"
+				(path "/51a22687-1e47-442c-a34e-eb81866e4c6a"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(junction
+		(at 336.55 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4559771-297b-4c46-86fc-d3430a593c0f")
+	)
+	(junction
+		(at 336.55 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3240aad-21fe-411d-82c1-0c414726b980")
+	)
+	(junction
+		(at 336.55 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6052777-f596-4752-bbdb-320a34b03824")
+	)
+	(junction
+		(at 336.55 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a3e5c86-2269-44eb-a879-78692e1155a6")
+	)
+	(junction
+		(at 336.55 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "669d0ca1-e4dc-4aa3-8f99-36d91a2e4cd0")
+	)
+	(junction
+		(at 336.55 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d034afa-46ec-4680-aaea-bcd63bc500f7")
+	)
+	(junction
+		(at 336.55 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98a29d35-2efd-4ee4-9333-27eee6c58cd2")
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 359.41 40.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "96d63506-ceb1-4706-83df-a8c6ee74ac6c")
+		(property "Reference" "R20"
+			(at 359.16 38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 359.41 43.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 359.66 39.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 359.41 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 359.41 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0d4e264a-5445-412e-8732-bc67c8454725")
+		)
+		(pin "1"
+			(uuid "5c350cfb-5a5d-487f-b8c3-c60838871d12")
+		)
+		(instances
+			(project "Sierrathon-PCB Design"
+				(path "/51a22687-1e47-442c-a34e-eb81866e4c6a"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "P_DP"
+		(at 355.6 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7366044d-5262-46fd-88d6-51fcb66e9117")
+	)
+	(label "CH0"
+		(at 363.22 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f98b8525-a595-4481-b4ff-78340d27b3d3")
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 359.41 48.26 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "03c4971e-dda8-4617-a9dc-80be978a358d")
+		(property "Reference" "R21"
+			(at 359.16 45.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 359.41 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 359.66 47.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 359.41 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 359.41 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8fb3c9f1-7876-4e04-abfd-3718a8de820c")
+		)
+		(pin "1"
+			(uuid "e0de79da-f4e9-4e64-8953-344d8ca9db80")
+		)
+		(instances
+			(project "Sierrathon-PCB Design"
+				(path "/51a22687-1e47-442c-a34e-eb81866e4c6a"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "P_DN"
+		(at 355.6 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d3509115-0f0e-4ebb-9a28-55e5f449ccf1")
+	)
+	(label "CH1"
+		(at 363.22 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ef65a4b-de79-4551-853f-2dd2b52b3be3")
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 359.41 55.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c93984f7-729f-4a7a-addd-41cb2421b93e")
+		(property "Reference" "R22"
+			(at 359.16 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 359.41 58.42 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 359.66 54.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 359.41 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 359.41 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7d7b8560-968e-4e07-8e31-9a402d00eefc")
+		)
+		(pin "1"
+			(uuid "fa81c4d1-067d-4794-a9ce-1c486f0bfaf4")
+		)
+		(instances
+			(project "Sierrathon-PCB Design"
+				(path "/51a22687-1e47-442c-a34e-eb81866e4c6a"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "P_SBU1"
+		(at 355.6 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6e011b27-8e42-45c2-b2e9-4afe7cc4eef7")
+	)
+	(label "CH2"
+		(at 363.22 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eba0b519-7d26-4af5-a9a2-78ac5c2e4b56")
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 359.41 63.5 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c0de3093-25d1-4535-93a2-cb1387643ed7")
+		(property "Reference" "R23"
+			(at 359.16 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 359.41 66.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 359.66 62.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 359.41 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 359.41 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "189abad0-923e-4e55-8255-591d18a55559")
+		)
+		(pin "1"
+			(uuid "8c98a37c-7499-4953-bfb6-75021be20995")
+		)
+		(instances
+			(project "Sierrathon-PCB Design"
+				(path "/51a22687-1e47-442c-a34e-eb81866e4c6a"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "P_SBU2"
+		(at 355.6 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "07bc1228-739f-43bd-8c94-e2ce05aab998")
+	)
+	(label "CH3"
+		(at 363.22 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84014d88-7aa0-4c12-918d-b3be3f38d095")
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 359.41 71.12 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "942b2c1a-81dc-464b-bb36-68b6f7f0fec6")
+		(property "Reference" "R24"
+			(at 359.16 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 359.41 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 359.66 70.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 359.41 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 359.41 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ad3638af-b552-4a80-b988-4eb3df16d98b")
+		)
+		(pin "1"
+			(uuid "b5cf1a1d-6337-4a80-a30f-b6323ced64a8")
+		)
+		(instances
+			(project "Sierrathon-PCB Design"
+				(path "/51a22687-1e47-442c-a34e-eb81866e4c6a"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "P_CC1"
+		(at 355.6 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2d6df371-7929-4467-9305-0b6d75749005")
+	)
+	(label "A0"
+		(at 363.22 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11a3144f-8fb8-4dbf-862b-c036014b51d5")
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 359.41 78.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "84776da4-2485-4511-ba99-c1bf3207d0bc")
+		(property "Reference" "R25"
+			(at 359.16 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 359.41 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 359.66 77.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 359.41 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 359.41 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b8352b02-3792-48fd-bc2d-1b446e9cd194")
+		)
+		(pin "1"
+			(uuid "60acef48-1c07-4ea9-8455-ef594e0dcc68")
+		)
+		(instances
+			(project "Sierrathon-PCB Design"
+				(path "/51a22687-1e47-442c-a34e-eb81866e4c6a"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "P_CC2"
+		(at 355.6 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a7390fbb-a42e-4c82-a090-6dd4c7937cbf")
+	)
+	(label "A1"
+		(at 363.22 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43ea907c-5a0b-4bfd-b936-c79e255ea85d")
+	)
+	(label "CH0"
+		(at 161.29 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e667329a-f317-45f9-b84c-82ab16f4638d")
+	)
+	(label "CH1"
+		(at 161.29 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c704efc9-a17e-4b5b-98f8-7ae08bc5a69b")
+	)
+	(label "CH2"
+		(at 161.29 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65139f6b-ab67-42d6-b2a5-1502b8f4ffe5")
+	)
+	(label "CH3"
+		(at 161.29 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd7563d7-0e6b-4554-b154-f88125f9dec9")
+	)
+	(label "A0"
+		(at 161.29 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59f121ae-d732-48ef-a420-54dd76342e5d")
+	)
+	(label "A1"
+		(at 161.29 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b15db44c-4873-424a-ac22-1dc3727ca2d7")
 	)
 	(sheet_instances
 		(path "/"

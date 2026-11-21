@@ -1,16 +1,7 @@
-ERC report (2026-11-21T15:19:36, Encoding UTF8)
+ERC report (2026-11-21T15:45:22, Encoding UTF8)
 Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /
-[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
-    ; error
-    @(53.34 mm, 22.86 mm): Symbol #PWR06 Pin 1 [Power input, Line]
-[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
-    ; error
-    @(114.30 mm, 41.91 mm): Symbol #PWR01 Pin 1 [Power input, Line]
-[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
-    ; error
-    @(125.73 mm, 102.87 mm): Symbol U1 Pin 43 [ADC_AVDD, Power input, Line]
 [lib_symbol_issues]: The current configuration does not include the symbol library 'PTS526SM15SMTR2_LFS'
     ; warning
     @(21.59 mm, 215.90 mm): Symbol SW1 [PTS526_SM15_SMTR2_LFS]
@@ -50,14 +41,6 @@ Report includes: Errors, Warnings, Exclusions
 [no_connect_dangling]: Unconnected "no connection" flag
     ; warning
     @(120.65 mm, 175.26 mm): No Connect
-[multiple_net_names]: Both LED5 and Led5 are attached to the same items; LED5 will be used in the netlist
-    ; warning
-    @(339.09 mm, 167.64 mm): Label 'LED5'
-    @(167.64 mm, 163.83 mm): Label 'Led5'
-[similar_labels]: Labels are similar (lower/upper case difference only)
-    ; warning
-    @(167.64 mm, 163.83 mm): Label 'Led5'
-    @(339.09 mm, 167.64 mm): Label 'LED5'
 [pin_to_pin]: Pins of type Unspecified and Passive are connected
     ; warning
     @(191.77 mm, 246.38 mm): Symbol SW2 Pin 4 [4, Unspecified, Line]
@@ -88,12 +71,11 @@ Report includes: Errors, Warnings, Exclusions
     ; warning
     @(254.00 mm, 179.07 mm): Symbol SW3 Pin 3 [3, Unspecified, Line]
     @(254.00 mm, 184.15 mm): Symbol #PWR012 Pin 1 [Power input, Line]
-[similar_labels]: Labels are similar (lower/upper case difference only)
+[lib_symbol_issues]: The current configuration does not include the symbol library 'UJ20-C-H-G-SMT-TR'
     ; warning
-    @(339.09 mm, 167.64 mm): Label 'LED5'
-    @(339.09 mm, 167.64 mm): Label 'Led5'
+    @(320.04 mm, 74.93 mm): Symbol J2 [UJ20-C-H-G-SMT-TR]
 
- ** ERC messages: 25  Errors 3  Warnings 22
+ ** ERC messages: 20  Errors 0  Warnings 20
 
  ** Ignored checks:
     - Global label only appears once in the schematic

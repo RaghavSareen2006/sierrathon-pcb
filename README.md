@@ -13,25 +13,26 @@ Specs, BOM and scoring live in `Resources/`.
 - Blue drawings on `User.Comments` are placement guides only (J1, J2, RP2040 zone, LED zone,
   R20-R25 zone, hole circles). Delete them once parts are placed.
 
-## Probe port J2 (judges approved adding a USB-C)
-J2 is the SAME part as J1 (UJ20-C-H-G-SMT-TR), so no new footprint. Each signal goes through
-a 1 kΩ series resistor (R20-R25, same part as R7/R8: RC0402FR-071KL) placed close to J2.
+## Probe port J2 (judges approved adding a USB-C) - ON THE BOARD
+J2 is the same USB-C part as J1 (Same Sky UJ20-C-H-G-SMT-TR, SeoHan's CUI_UJ20 footprint), at the right
+end of the board, rotated 180 deg from J1. Each signal goes through a 1 kOhm series resistor (R20-R25,
+same part as R7/R8) placed right behind J2.
 
-| J2 pins | Net | RP2040 |
-|---|---|---|
-| A6 + B6 (D+, tied together) | CH0 | GPIO0 (pin 2) |
-| A7 + B7 (D-, tied together) | CH1 | GPIO1 (pin 3) |
-| A8 (SBU1) | CH2 | GPIO2 (pin 4) |
-| B8 (SBU2) | CH3 | GPIO3 (pin 5) |
-| A5 (CC1) | A0 | GPIO26 (pin 38) |
-| B5 (CC2) | A1 | GPIO27 (pin 39) |
-| GND pins + shell | GND | |
-| VBUS pins | not connected (so a charger/laptop plugged in here can't push 5 V in) | |
+| J2 pins | via | Net | RP2040 |
+|---|---|---|---|
+| A6 + B6 (D+, tied) | R20 | CH0 | GPIO9 (pin 12) |
+| A7 + B7 (D-, tied) | R21 | CH1 | GPIO10 (pin 13) |
+| A8 (SBU1) | R22 | CH2 | GPIO11 (pin 14) |
+| B8 (SBU2) | R23 | CH3 | GPIO12 (pin 15) |
+| A5 (CC1) | R24 | A0 | GPIO26 / ADC0 (pin 38) |
+| B5 (CC2) | R25 | A1 | GPIO28 / ADC2 (pin 40) |
+| GND pins + shell | | GND | |
+| VBUS pins | | not connected (a charger/laptop plugged in here can't push 5 V in) | |
 
-Flipping the plug swaps CH2/CH3 and A0/A1 only. Draw J2 + R20-R25 on a second KiCad 10
-top-level sheet and connect with **global** labels (CH0-CH3, A0, A1). On page 1 only GPIO0-3
-and GPIO26-27 lose their no-connect X and get those labels.
-BOM changes: USB-C line becomes J1, J2 qty 2; 1 kΩ line becomes R7, R8, R20-R25 qty 8.
+CH0-CH3 are 4 consecutive GPIOs (needed for the PIO logic-analyzer). GPIO0-3 / GPIO27 were the first
+plan but there is no room to escape 4 vias under those 0.4 mm-pitch pins, so the channels moved to
+GPIO9-12 and A1 to GPIO28 (both still analog-capable / consecutive). Drawn on the main sheet (top right)
+with local labels; GPIO0-3 and GPIO27 keep their no-connect flags.
 
 ## Team rules for working in this repo
 - KiCad files don't merge well. **Only one person edits a given file at a time**
