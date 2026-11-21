@@ -7996,6 +7996,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 284.48 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM21BR71C225KA64L"
+			(at 284.48 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "eae4c70b-4df5-46d4-87bd-9a807879f36c")
 		)
@@ -8078,6 +8100,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 49.53 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM155R71C104KA55D"
+			(at 49.53 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "581c652f-d0c5-4d7f-81fb-f32ce28cc5db")
 		)
@@ -8150,6 +8194,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 38.1 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 38.1 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM155R71C104KA55D"
 			(at 38.1 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -8310,6 +8376,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 60.96 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 60.96 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402JR-075K1L"
 			(at 60.96 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8634,6 +8722,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 347.98 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "AF0402JR-07330RL"
+			(at 347.98 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7eeb004c-0a49-456c-95cb-faecb957b7b0")
 		)
@@ -8716,6 +8826,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 222.25 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM188R71C105KA64D"
+			(at 222.25 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "94cf98ec-ae98-4dcb-bc81-f90d409d1562")
 		)
@@ -8786,6 +8918,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 347.98 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 347.98 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "AF0402JR-07330RL"
 			(at 347.98 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -9034,6 +9188,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 199.39 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-071KL"
+			(at 199.39 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "793317b1-5776-4fde-b857-520f1f40a152")
 		)
@@ -9116,6 +9292,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 26.67 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM155R71C104KA55D"
+			(at 26.67 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9163cdfc-bb5a-4078-91e8-ca509c4422be")
 		)
@@ -9188,6 +9386,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 110.49 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 110.49 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PTS526SM15SMTR2 LFS"
 			(at 110.49 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -9520,6 +9740,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 82.55 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM155R71C104KA55D"
+			(at 82.55 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b8bb3a36-7639-4604-a15b-87d983bf4c51")
 		)
@@ -9667,6 +9909,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 69.85 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 69.85 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-071KL"
 			(at 69.85 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -9915,6 +10179,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 77.47 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM21BR71C225KA64L"
+			(at 77.47 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6411d1fe-9210-4143-b063-0602ce018cdc")
 		)
@@ -9985,6 +10271,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 347.98 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 347.98 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "AF0402JR-07330RL"
 			(at 347.98 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -10155,6 +10463,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 222.25 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402JR-0710KL"
+			(at 222.25 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "882a3034-f2a3-445a-bdd9-5032a3058962")
 		)
@@ -10302,6 +10632,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 101.6 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 101.6 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-0727RL"
 			(at 101.6 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -10548,6 +10900,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "QT Brightek (QTB)"
+			(at 361.95 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "QBLP601-R5"
+			(at 361.95 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 361.95 156.21 0)
 			(hide yes)
@@ -10639,6 +11013,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "Manufacturer" "Same Sky (Formerly CUI Devices)"
+			(at 35.56 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/UJ20-C-H-G-SMT-TR_Same_Sky.pdf"
@@ -10939,6 +11324,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 233.68 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM21BR71C225KA64L"
+			(at 233.68 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "aa8a097d-f88e-4e3d-824c-79a842f13997")
 		)
@@ -11174,6 +11581,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 101.6 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-0727RL"
+			(at 101.6 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f4e001b1-3d4e-40fc-bac2-b6ab187a21a3")
 		)
@@ -11243,6 +11672,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 54.61 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 54.61 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM1555C1H150JA16D"
 			(at 54.61 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -11335,6 +11786,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 92.71 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM21BR71C225KA64L"
+			(at 92.71 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1be83775-546e-4968-b376-9402065ff905")
 		)
@@ -11405,6 +11878,28 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 361.95 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "QT Brightek (QTB)"
+			(at 361.95 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "QBLP601-R5"
 			(at 361.95 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -11742,6 +12237,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 60.96 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM155R71C104KA55D"
+			(at 60.96 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f1265583-04bb-44f2-913f-a5ba125dc92c")
 		)
@@ -11824,6 +12341,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 77.47 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603JR-07200RL"
+			(at 77.47 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "20ae95b5-a9da-424e-ac6b-cf419a755572")
 		)
@@ -11894,6 +12433,28 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 361.95 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "QT Brightek (QTB)"
+			(at 361.95 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "QBLP601-R5"
 			(at 361.95 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -11985,6 +12546,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 347.98 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 347.98 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "AF0402JR-07330RL"
 			(at 347.98 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -12143,6 +12726,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 347.98 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 347.98 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "AF0402JR-07330RL"
 			(at 347.98 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -12313,6 +12918,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 72.39 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM155R71C104KA55D"
+			(at 72.39 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0d20f61c-fbdc-4c69-871d-54445e41ebd5")
 		)
@@ -12463,6 +13090,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 172.72 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 172.72 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM188R71C105KA64D"
 			(at 172.72 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -12711,6 +13360,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 218.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM155R71C104KA55D"
+			(at 218.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4ba530cd-bd10-43b7-8898-861e2938a60a")
 		)
@@ -12869,6 +13540,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "QT Brightek (QTB)"
+			(at 361.95 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "QBLP601-R5"
+			(at 361.95 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 361.95 123.19 0)
 			(hide yes)
@@ -12950,6 +13643,28 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 361.95 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "QT Brightek (QTB)"
+			(at 361.95 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "QBLP601-R5"
 			(at 361.95 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -13043,6 +13758,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 21.59 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 21.59 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PTS526SM15SMTR2 LFS"
 			(at 21.59 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -13207,6 +13944,28 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 361.95 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "QT Brightek (QTB)"
+			(at 361.95 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "QBLP601-R5"
 			(at 361.95 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -13542,6 +14301,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 347.98 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "AF0402JR-07330RL"
+			(at 347.98 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b146c816-48c2-4ff9-9f65-612e1e4390fc")
 		)
@@ -13700,6 +14481,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 194.31 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "AP2112K-3.3TRG1"
+			(at 194.31 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "819d6fcc-90ef-4a2d-a7cf-150f8ac98e0d")
 		)
@@ -13781,6 +14584,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 72.39 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 72.39 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402JR-075K1L"
 			(at 72.39 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -13873,6 +14698,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 203.2 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM155R71C104KA55D"
+			(at 203.2 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f82cc926-3298-42c5-830f-b172bc5cdeb1")
 		)
@@ -13955,6 +14802,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 270.51 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM155R71C104KA55D"
+			(at 270.51 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "73e43472-7055-4a22-941d-a767976e6966")
 		)
@@ -14025,6 +14894,28 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 361.95 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "QT Brightek (QTB)"
+			(at 361.95 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "QBLP601-R5"
 			(at 361.95 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -14129,6 +15020,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 130.81 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "USBLC6-2SC6"
+			(at 130.81 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5f506b93-d7c8-4ff7-aff3-6921f69d672a")
 		)
@@ -14223,6 +15136,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 205.74 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402JR-0710KL"
+			(at 205.74 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0c105aca-d6b9-4715-b3d8-3056718c04ac")
 		)
@@ -14295,6 +15230,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 228.6 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 228.6 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "D6R90 F2 LFS"
 			(at 228.6 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -14547,6 +15504,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 54.61 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM1555C1H150JA16D"
+			(at 54.61 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d6af35b0-38d8-4a85-a5b9-7a3e64306e24")
 		)
@@ -14619,6 +15598,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 110.49 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 110.49 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402JR-0710KL"
 			(at 110.49 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -14777,6 +15778,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 347.98 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 347.98 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "AF0402JR-07330RL"
 			(at 347.98 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -15028,6 +16051,17 @@
 				(justify bottom)
 			)
 		)
+		(property "Manufacturer" "Abracon LLC"
+			(at 52.07 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/ABM8-272-T3_ABRACON.pdf"
 			(at 52.07 166.37 0)
 			(hide yes)
@@ -15202,6 +16236,28 @@
 			)
 		)
 		(property "Description" "A microcontroller by Raspberry Pi, Dual ARM Cortex-M0+, 133MHz, no flash, 264KB SRAM, 8 PIO state machines, VQFN-56"
+			(at 135.89 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Raspberry Pi"
+			(at 135.89 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SC0914(13)"
 			(at 135.89 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -15482,6 +16538,17 @@
 				(justify bottom)
 			)
 		)
+		(property "Manufacturer" "Winbond Electronics"
+			(at 237.49 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/W25Q128JVSIQ_Winbond_Electronics.pdf"
 			(at 237.49 100.33 0)
 			(hide yes)
@@ -15518,7 +16585,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MPN" "W25Q128JVSIQ"
+		(property "MPN" "W25Q128JVSIQ TR"
 			(at 237.49 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -15713,6 +16780,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "Manufacturer" "Same Sky (Formerly CUI Devices)"
+			(at 320.04 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/UJ20-C-H-G-SMT-TR_Same_Sky.pdf"
@@ -16308,6 +17386,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 359.41 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-071KL"
+			(at 359.41 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0d4e264a-5445-412e-8732-bc67c8454725")
 		)
@@ -16397,6 +17497,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 359.41 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 359.41 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-071KL"
 			(at 359.41 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -16506,6 +17628,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 359.41 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-071KL"
+			(at 359.41 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7d7b8560-968e-4e07-8e31-9a402d00eefc")
 		)
@@ -16595,6 +17739,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 359.41 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 359.41 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-071KL"
 			(at 359.41 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -16704,6 +17870,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 359.41 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-071KL"
+			(at 359.41 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ad3638af-b552-4a80-b988-4eb3df16d98b")
 		)
@@ -16793,6 +17981,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 359.41 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 359.41 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-071KL"
 			(at 359.41 78.74 0)
 			(hide yes)
 			(show_name no)
