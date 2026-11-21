@@ -17,7 +17,9 @@
     (condition "A.hasNetclass('USB_90R')")
     (constraint track_width (min 4.5mil) (opt 5mil) (max 5.5mil))
     (constraint diff_pair_gap (min 3.6mil) (opt 4mil) (max 4.4mil))
-    (constraint diff_pair_uncoupled (max 3mm)))
+    (constraint diff_pair_uncoupled (max 7mm)))
+# uncoupled max 7 mm: full-speed USB (12 Mb/s); each pair has to split around the ESD chip U4,
+# the 27R resistors R5/R6 and the P/N swap in front of the RP2040.
 
 (rule "USB 90R pairs: 4 mil gap allowed only between the two halves of the same pair"
     (condition "A.hasNetclass('USB_90R') && AB.isCoupledDiffPair()")

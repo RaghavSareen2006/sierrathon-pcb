@@ -47,3 +47,14 @@ BOM changes: USB-C line becomes J1, J2 qty 2; 1 kΩ line becomes R7, R8, R20-R25
 - Net classes: `USB_90R` (USB_P/N, USBR_P/N, D_P/D_N – use the diff-pair router, key `6`),
   `Power` (VBUS, +3.3V, +1.1V, GND – 15 mil), `Default` (8 mil).
 - Net names in the schematic must match the PDF exactly or nets won't land in the right class.
+
+## Routing (done - DRC: 0 violations, 0 unconnected, schematic parity clean)
+- USB (D_P/D_N, USB_P/USB_N, USBR_P/USBR_N) hand-routed and locked: 5 mil traces, 4 mil gap where
+  the pair runs in parallel. USBR_N hops under USBR_P on B.Cu (one via pair) because the ESD chip's
+  channel order is the reverse of the RP2040's USB_DM/USB_DP pin order.
+- `diff_pair_uncoupled` limit is 7 mm (was 3 mm): each pair has to split around U4, R5/R6 and the swap;
+  fine for full-speed USB (12 Mb/s).
+- Remaining signals auto-routed with Freerouting (F.Cu/B.Cu only); In1.Cu = GND plane, In2.Cu = +3.3V
+  plane (layer type "power", 8 mil plane clearance). GND/+3.3V pads drop to the planes through vias;
+  RP2040 exposed pad has 6 thermal vias.
+- Y1 uses an exact Abracon ABM8 land pattern (Libraries/Sierrathon.pretty, datasheet in Libraries/datasheets).
