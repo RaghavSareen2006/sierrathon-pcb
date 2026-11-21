@@ -160,7 +160,7 @@
         "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.2032,
         "min_track_width": 0.127,
-        "min_via_annular_width": 0.127,
+        "min_via_annular_width": 0.12,
         "min_via_diameter": 0.4572,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -620,6 +620,14 @@
       {
         "netclass": "Power",
         "pattern": "*GND"
+      },
+      {
+        "netclass": "USB_90R",
+        "pattern": "Net-(U1-USB_DP)"
+      },
+      {
+        "netclass": "USB_90R",
+        "pattern": "Net-(U1-USB_DM)"
       }
     ]
   },

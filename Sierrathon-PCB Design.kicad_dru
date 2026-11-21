@@ -29,3 +29,9 @@
     (layer inner)
     (condition "A.hasNetclass('USB_90R')")
     (constraint disallow track))
+
+# The schematic leaves the RP2040-side USB nets unlabelled, so KiCad names them Net-(U1-USB_DP) / Net-(U1-USB_DM)
+# and does not recognise them as a differential pair. Allow the same 4 mil in-pair gap between exactly those two nets.
+(rule "USBR pair (auto-named nets): 4 mil gap between the two halves"
+    (condition "(A.NetName == 'Net-(U1-USB_DP)' && B.NetName == 'Net-(U1-USB_DM)') || (A.NetName == 'Net-(U1-USB_DM)' && B.NetName == 'Net-(U1-USB_DP)')")
+    (constraint clearance (min 4mil)))

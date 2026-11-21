@@ -58,3 +58,16 @@ BOM changes: USB-C line becomes J1, J2 qty 2; 1 kΩ line becomes R7, R8, R20-R25
   plane (layer type "power", 8 mil plane clearance). GND/+3.3V pads drop to the planes through vias;
   RP2040 exposed pad has 6 thermal vias.
 - Y1 uses an exact Abracon ABM8 land pattern (Libraries/Sierrathon.pretty, datasheet in Libraries/datasheets).
+
+## Current status (3:05 PM) - SeoHan's schematic and footprints
+- Project schematic = SeoHan's `finalschematic.kicad_sch` (only change: internal project name pointed at this project).
+- J1, SW1, SW2, SW3, U3, Y1 use SeoHan's footprints (CUI_UJ20-C-H-G-SMT-TR, SON4_PTS526 SM15 SMTR2 LFS_CNK,
+  D6R90_CNK, SOIC127P790X216-8N, XTAL_ABM8-272-T3), aligned pad-for-pad to the routed board. Small DFM edits:
+  J1 signal-pin mask margin 0.102 -> 0.04 mm (keeps a mask web at 0.85 mm pitch), J1 silk past the board edge
+  removed, duplicate "*" silk text on the PTS526 removed, U3 pin-1 silk dot that sat on copper removed.
+- Rules: min annular ring 0.127 -> 0.12 mm (J1 pads have a 0.125 mm ring); USB_90R class + a 4 mil in-pair rule
+  also cover the auto-named Net-(U1-USB_DP) / Net-(U1-USB_DM) nets.
+- DRC --severity-all --schematic-parity: 0 violations, 0 unconnected, 0 footprint errors.
+- Known schematic items left as-is for now: USBR_P/USBR_N and Led5 net names, BOM values on J1/MH1-4/SW3/U2,
+  most parts have no MPN/Manufacturer fields, ERC warnings from downloaded symbols' pin types.
+- My earlier footprints (SW_CK_*, USB_C_Receptacle_SameSky_*, Crystal_SMD_Abracon_ABM8-*) stay in the library, unused.
